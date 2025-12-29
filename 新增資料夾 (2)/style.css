@@ -1,0 +1,53 @@
+/* style-home.css */
+
+/* 首頁專屬的背景色 */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4e9d5; /* 溫暖的米黃色 */
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #6a5acd; /* 藍紫色調 */
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+/* 導航選單樣式 */
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+    display: block;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+nav ul li a:hover {
+    background-color: #483d8b; /* 深一點的藍紫色 */
+}
+
+main {
+    padding: 20px;
+    text-align: center;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
